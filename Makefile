@@ -1,5 +1,5 @@
 obligatorio: main.o filtros.o bloques.o audio.o buffer.o filtros.h bloques.h audio.h buffer.h
-	gcc -o obligatorio main.o filtros.o bloques.o audio.o buffer.o -lm
+	gcc -o Audio_filter main.o filtros.o bloques.o audio.o buffer.o -lm
 
 main.o: main.c
 	gcc -c main.c
